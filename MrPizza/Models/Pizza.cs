@@ -6,41 +6,32 @@ namespace MrPizza.Models
 {
     public abstract class Pizza
     {
-        private readonly string _name;
-        private readonly string _crust;
-        private readonly string _sauce;
-        private readonly List<string> _toppings = new List<string>();
+        private string _name;
+        private string _crust;
+        private string _sauce;
+        private IList<string> _toppings = new List<string>();
 
         public string Crust 
         { 
-            get
-            {
-                return _crust;
-            }
+            get => _crust;
             set
             {
-                value = _crust;
+                _crust = value;
             } 
         }
 
         public string Sauce
         {
-            get
-            {
-                return _sauce;
-            }
+            get => _sauce;
             set
             {
-                value = _sauce;
+                _sauce = value;
             }
         }
 
-        public List<string> Toppings
+        public ICollection<string> Toppings
         {
-            get
-            {
-                return _toppings;
-            }
+            get => _toppings;
             set
             {
                 foreach (var item in value)
@@ -50,7 +41,7 @@ namespace MrPizza.Models
             }
         }
 
-        public string Name { get { return _name; } set { value = _name; } }
+        public string Name { get { return _name; } set { _name = value; } }
 
         public Pizza()
         {

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "EW/Ly+LFFhmL2YryuUyRtJhggKmV4edTEXRxBkxWhge3frYK6xdYoN/7qQeuEWBRWPpAY8XyLdHJWtDd12jGpw==",
+  "dgSpecHash": "0iB8wGR1GFOwfI89/A0/r/JvJ7Sc0uO58mJBzV2e7eKFX9WsAGMwVrGaFetNn6pVWP/VWI9aYZDmVozUWMhUCw==",
   "success": true,
   "projectFilePath": "C:\\Users\\leann\\Documents\\Repos\\OReilly HeadFirstDesignPatterns_FactoryMethodPattern\\MrPizza\\MrPizza.Test\\MrPizza.Test.csproj",
   "expectedPackageFiles": [
@@ -42,7 +42,7 @@
     "C:\\Users\\leann\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\leann\\.nuget\\packages\\moq\\4.16.0\\moq.4.16.0.nupkg.sha512",
     "C:\\Users\\leann\\.nuget\\packages\\netstandard.library\\2.0.0\\netstandard.library.2.0.0.nupkg.sha512",
-    "C:\\Users\\leann\\.nuget\\packages\\newtonsoft.json\\10.0.1\\newtonsoft.json.10.0.1.nupkg.sha512",
+    "C:\\Users\\leann\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\leann\\.nuget\\packages\\nsubstitute\\4.2.2\\nsubstitute.4.2.2.nupkg.sha512",
     "C:\\Users\\leann\\.nuget\\packages\\nuget.frameworks\\5.0.0\\nuget.frameworks.5.0.0.nupkg.sha512",
     "C:\\Users\\leann\\.nuget\\packages\\nunit\\3.13.1\\nunit.3.13.1.nupkg.sha512",
@@ -103,7 +103,6 @@
     "C:\\Users\\leann\\.nuget\\packages\\system.runtime.handles\\4.3.0\\system.runtime.handles.4.3.0.nupkg.sha512",
     "C:\\Users\\leann\\.nuget\\packages\\system.runtime.interopservices\\4.3.0\\system.runtime.interopservices.4.3.0.nupkg.sha512",
     "C:\\Users\\leann\\.nuget\\packages\\system.runtime.interopservices.runtimeinformation\\4.3.0\\system.runtime.interopservices.runtimeinformation.4.3.0.nupkg.sha512",
-    "C:\\Users\\leann\\.nuget\\packages\\system.runtime.numerics\\4.3.0\\system.runtime.numerics.4.3.0.nupkg.sha512",
     "C:\\Users\\leann\\.nuget\\packages\\system.runtime.serialization.formatters\\4.3.0\\system.runtime.serialization.formatters.4.3.0.nupkg.sha512",
     "C:\\Users\\leann\\.nuget\\packages\\system.runtime.serialization.json\\4.3.0\\system.runtime.serialization.json.4.3.0.nupkg.sha512",
     "C:\\Users\\leann\\.nuget\\packages\\system.runtime.serialization.primitives\\4.3.0\\system.runtime.serialization.primitives.4.3.0.nupkg.sha512",
