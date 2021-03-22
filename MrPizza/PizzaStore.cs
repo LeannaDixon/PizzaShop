@@ -1,4 +1,5 @@
-﻿using MrPizza.Repository.Models;
+﻿using MrPizza.Logging;
+using MrPizza.Repository.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,6 +19,7 @@ namespace MrPizza
         public Pizza OrderPizza(string type)
         {
             var pizza = _pizzaFactory.CreatePizza(type);
+            Logger._diagnosticLogger.Information("Creating Pizza {type}", type);
 
             pizza.Prepare();
             pizza.Bake();

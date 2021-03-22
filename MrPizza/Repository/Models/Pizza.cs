@@ -1,26 +1,30 @@
-﻿using System;
+﻿using MrPizza.Logging;
+using System;
 
 namespace MrPizza.Repository.Models
 {
     public abstract class Pizza
     {
-        public Pizza Prepare()
+        public void Prepare()
         {
-            
+            Logger._diagnosticLogger.ForContext<Pizza>()
+                .Information("Preparing Pizzs: {PizzaType}", this);
         }
 
-        public Pizza Bake()
+        public void Bake()
         {
+            Logger._diagnosticLogger.Information("Baking Pizza");
+
         }
 
-        public Pizza Cut()
+        public void Cut()
         {
-            throw new NotImplementedException();
+            Logger._diagnosticLogger.Information("Cutting Pizza");
         }
 
-        public Pizza Box()
+        public void Box()
         {
-            throw new NotImplementedException();
+            Logger._diagnosticLogger.Information("Boxing Pizza");
         }
     }
 }

@@ -137,15 +137,15 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[5.0.3, )"
+              "version": "[5.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
-              "version": "[5.0.3, )"
+              "version": "[5.0.4, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[5.0.3, )"
+              "version": "[5.0.4, )"
             },
             "Serilog": {
               "target": "Package",
@@ -154,6 +154,10 @@
             "Serilog.Sinks.Console": {
               "target": "Package",
               "version": "[3.1.1, )"
+            },
+            "Serilog.Sinks.Seq": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [
