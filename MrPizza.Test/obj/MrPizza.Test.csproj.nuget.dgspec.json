@@ -1,0 +1,182 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\leann\\Documents\\Repos\\OReilly HeadFirstDesignPatterns_FactoryMethodPattern\\MrPizza\\MrPizza.Test\\MrPizza.Test.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\leann\\Documents\\Repos\\OReilly HeadFirstDesignPatterns_FactoryMethodPattern\\MrPizza\\MrPizza.Test\\MrPizza.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\leann\\Documents\\Repos\\OReilly HeadFirstDesignPatterns_FactoryMethodPattern\\MrPizza\\MrPizza.Test\\MrPizza.Test.csproj",
+        "projectName": "MrPizza.Test",
+        "projectPath": "C:\\Users\\leann\\Documents\\Repos\\OReilly HeadFirstDesignPatterns_FactoryMethodPattern\\MrPizza\\MrPizza.Test\\MrPizza.Test.csproj",
+        "packagesPath": "C:\\Users\\leann\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\leann\\Documents\\Repos\\OReilly HeadFirstDesignPatterns_FactoryMethodPattern\\MrPizza\\MrPizza.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\leann\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\leann\\Documents\\Repos\\OReilly HeadFirstDesignPatterns_FactoryMethodPattern\\MrPizza\\MrPizza\\MrPizza.csproj": {
+                "projectPath": "C:\\Users\\leann\\Documents\\Repos\\OReilly HeadFirstDesignPatterns_FactoryMethodPattern\\MrPizza\\MrPizza\\MrPizza.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.10.3, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.8.3, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.0, )"
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[4.2.2, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.1, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.17.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\leann\\Documents\\Repos\\OReilly HeadFirstDesignPatterns_FactoryMethodPattern\\MrPizza\\MrPizza\\MrPizza.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\leann\\Documents\\Repos\\OReilly HeadFirstDesignPatterns_FactoryMethodPattern\\MrPizza\\MrPizza\\MrPizza.csproj",
+        "projectName": "MrPizza",
+        "projectPath": "C:\\Users\\leann\\Documents\\Repos\\OReilly HeadFirstDesignPatterns_FactoryMethodPattern\\MrPizza\\MrPizza\\MrPizza.csproj",
+        "packagesPath": "C:\\Users\\leann\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\leann\\Documents\\Repos\\OReilly HeadFirstDesignPatterns_FactoryMethodPattern\\MrPizza\\MrPizza\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\leann\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.3, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[2.10.0, )"
+            },
+            "Serilog.Sinks.Console": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
