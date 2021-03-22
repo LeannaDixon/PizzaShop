@@ -4,6 +4,8 @@
     {
         public VegetarianPizza()
         {
+            Toppings.Add("Peppers");
+            Toppings.Add("Mushrooms");
         }
     }
 }

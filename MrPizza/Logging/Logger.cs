@@ -16,14 +16,20 @@ namespace MrPizza.Logging
         static Logger()
         {
             _performanceLogger = new LoggerConfiguration()
+                .MinimumLevel.Verbose()
+                .WriteTo.Seq("http://localhost:5341")
                 .WriteTo.Console()
                 .CreateLogger();
 
             _usageLogger = new LoggerConfiguration()
+                .MinimumLevel.Verbose()
+                .WriteTo.Seq("http://localhost:5341")
                 .WriteTo.Console()
                 .CreateLogger();
 
             _errorLogger = new LoggerConfiguration()
+                .MinimumLevel.Verbose()
+                .WriteTo.Seq("http://localhost:5341")
                 .WriteTo.Console()
                 .CreateLogger();
 

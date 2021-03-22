@@ -19,12 +19,14 @@ namespace MrPizza
         public Pizza OrderPizza(string type)
         {
             var pizza = _pizzaFactory.CreatePizza(type);
+
             Logger._diagnosticLogger.Information("Creating Pizza {type}", type);
 
             pizza.Prepare();
             pizza.Bake();
-            pizza.Cut();
             pizza.Box();
+            pizza.Cut();
+            
 
             return pizza;
         }

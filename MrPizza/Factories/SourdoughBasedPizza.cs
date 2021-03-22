@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MrPizza.Factories
 {
-    public class ThinCrustPizza : PizzaStoreFactory
+    public class SourdoughBasedPizza : PizzaStoreFactory
     {
         protected override Pizza PreparePizza(string pizzaType)
         {
@@ -15,7 +15,15 @@ namespace MrPizza.Factories
             {
                 pizza = new VegetarianPizza();
             }
-            pizza = new MargaritaPizza();
+            else if (pizzaType == "Pepperoni")
+            {
+                pizza = new PepperoiPizza();
+            }
+            else
+            {
+                pizza = new MargaritaPizza();
+            }
+            pizza.Crust = "sourdough crust";
             return pizza;
         }
     }

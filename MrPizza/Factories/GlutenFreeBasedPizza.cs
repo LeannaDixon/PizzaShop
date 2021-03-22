@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace MrPizza.Factories
 {
-    public class DeepDishPizza : PizzaStoreFactory
+    public class GlutenFreeBasedPizza : PizzaStoreFactory
     {
-        public DeepDishPizza()
+        public GlutenFreeBasedPizza()
         {
                 
         }
@@ -27,7 +27,7 @@ namespace MrPizza.Factories
             {
                 pizza = new MargaritaPizza();
             }
-            pizza.Crust = "Deep dish";
+            pizza.Crust = "Gluten-free";
 
             return pizza;
         }
