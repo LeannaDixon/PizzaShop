@@ -1,4 +1,4 @@
-﻿using MrPizza.Repository.Models;
+﻿using MrPizza.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

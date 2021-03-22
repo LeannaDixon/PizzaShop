@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using MrPizza.Repository.Models;
+using MrPizza.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,5 +10,7 @@ namespace MrPizza.Repository
     public interface IPizzaDbContext 
     {
         public DbSet<Pizza> Pizzas { get; set; }
+        public DbSet<Customer> Customers { get; set; }
+        public DbSet<Order> Orders { get; set; }
     }
 }

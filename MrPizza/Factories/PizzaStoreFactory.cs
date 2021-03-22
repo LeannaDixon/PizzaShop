@@ -1,4 +1,4 @@
-﻿using MrPizza.Repository.Models;
+﻿using MrPizza.Models;
 using System;
 
 namespace MrPizza

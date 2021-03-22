@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace MrPizza.Repository.Models
+namespace MrPizza.Models
 {
     public abstract class Pizza
     {

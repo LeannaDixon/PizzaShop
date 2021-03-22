@@ -1,4 +1,4 @@
-﻿namespace MrPizza.Repository.Models
+﻿namespace MrPizza.Models
 {
     public class PepperoiPizza : Pizza
     {
