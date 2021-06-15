@@ -1,4 +1,5 @@
-﻿using MrPizza.Logging;
+﻿using Microsoft.EntityFrameworkCore;
+using MrPizza.Logging;
 using System;
 using System.Collections.Generic;
 
@@ -9,26 +10,15 @@ namespace MrPizza.Models
         private string _name;
         private string _crust;
         private string _sauce;
-        private IList<string> _toppings = new List<string>();
+        private ICollection<string> _toppings = new List<string>();
 
-        public string Crust 
-        { 
-            get => _crust;
-            set
-            {
-                _crust = value;
-            } 
-        }
+        [BackingField(nameof(_crust))]
+        public string Crust { get => _crust; set { _crust = value; } }
 
-        public string Sauce
-        {
-            get => _sauce;
-            set
-            {
-                _sauce = value;
-            }
-        }
+        [BackingField(nameof(_sauce))]
+        public string Sauce { get => _sauce; set { _sauce = value; } }
 
+        [BackingField(nameof(_toppings))]
         public ICollection<string> Toppings
         {
             get => _toppings;
@@ -40,7 +30,9 @@ namespace MrPizza.Models
                 }
             }
         }
+    
 
+        [BackingField(nameof(_name))]
         public string Name { get { return _name; } set { _name = value; } }
 
         public Pizza()
@@ -49,31 +41,7 @@ namespace MrPizza.Models
             Toppings.Add("Basil");
             Sauce = "Tomato";
         }
-        public void Prepare()
-        {
-            Logger._diagnosticLogger.ForContext<Pizza>()
-                .Information("Preparing Pizzs: {PizzaType}", this);
-
-            Logger._diagnosticLogger.ForContext<Pizza>()
-                .Information("Adding Toppings: {PizzaType}", this);
-        }
-
-        public void Bake()
-        {
-            Logger._diagnosticLogger.Information("Baking Pizza for 15 minutes at 350");
-
-        }
-
-
-        public void Box()
-        {
-            Logger._diagnosticLogger.Information("Placing Pizza into MrPizza Box");
-        }
-
-        public void Cut()
-        {
-            Logger._diagnosticLogger.Information("Cutting Pizza");
-        }
+       
 
         public string GetName()
         {

@@ -31,7 +31,7 @@ namespace MrPizza.Models
         [Required, Phone]
         public int MobileNumber { get; set; }
 
-       // [ForeignKey("Order")]
+        // [ForeignKey("Order")]
         public ICollection<Order>? Orders { get; set; }
     }
 }
